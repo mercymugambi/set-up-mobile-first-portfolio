@@ -89,21 +89,21 @@ body {
 }
 
 /*--section details--*/
-.projects-section{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 16px;
-gap: 12px;
-margin-top: 650px;
-width: 327px;
-height: 552px;
-background: #FFFFFF;
-border: 1px solid #DFE1E6;
-border-radius: 16px;
-flex: none;
-order: 0;
-flex-grow: 0;
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  margin-top: 650px;
+  width: 327px;
+  height: 552px;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .cards {
@@ -117,97 +117,94 @@ flex-grow: 0;
 }
 
 .cards-details {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 12px;
-width: 295px;
-height: 288px;
-flex: none;
-order: 1;
-flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 295px;
+  height: 288px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .title {
-width: 295px;
-height: 36px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: #172B4D;
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 295px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .highlights {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 12px;
-width: 236px;
-height: 32px;
-flex: none;
-order: 1;
-flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 236px;
+  height: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .highlight-text {
-width: 55px;
-height: 16px;
-text-transform: uppercase;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #344563;
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 55px;
+  height: 16px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .counter {
-width: 8px;
-height: 8px;
-background: #C1C7D0;
-flex: none;
-flex-grow: 0;
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  flex: none;
+  flex-grow: 0;
 }
 
 .countertext {
-width: 88px;
-height: 16px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 88px;
+  height: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .cards-descriptions {
   width: 295px;
-height: 76px;
-
-/* Body / 3 */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
-flex: none;
-order: 1;
-flex-grow: 0;
+  height: 76px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .grid-skills {
@@ -221,7 +218,7 @@ flex-grow: 0;
   gap: 8px;
 }
 
-.grid-skills >div {
+.grid-skills > div {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -233,6 +230,25 @@ flex-grow: 0;
   letter-spacing: 0.03rem;
   line-height: 16px;
   color: #6070ff;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
+
+#popup {
+    box-sizing: border-box;
+    border: 1px solid #7f8cff;
+    background-color: #fff;
+    letter-spacing: 0.03rem;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    padding: 12px;
+    bottom: 10px;
+    gap: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    color: #396df2;
+  }
