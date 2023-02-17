@@ -1,80 +1,79 @@
 * {
-    font-family: 'Poppins';
-    font-style: normal;
+  font-family: "Poppins";
+  font-style: normal;
 }
 
 @media screen and (max-width: 767px) {
-    html {
-        box-sizing: border-box;
-    }
+  html {
+    box-sizing: border-box;
+  }
 
-    body {
-        background-color: #ffffff;
-    }
+  body {
+    background-color: #ffffff;
+  }
 
-    .header-nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 58px 5%;
-    }
+  .header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 58px 5%;
+  }
 
-    .logo {
-        color: #6070FF;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 20px;
-    }
+  .logo {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+  }
 
-    .hamburger {
-        display: block;
-    }
-    
-    .heading {
-        background-image: url("./assets/images/mobile-bg-image.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    .header {
-        color: #172B4D;
-        font-weight: 700;
-        font-size: 30px;
-        padding-top: 20%;
-        margin-left: 5%;
-        margin-right: 5%;
-        line-height: 52px;
-    }
+  .heading {
+    background-image: url("./assets/images/mobile-bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    .heading-paragraph {
-        color: #344563;
-        font-weight: 400;
-        font-size: 16px;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: justify;
-        line-height: 24px;
-    }
-    
-    .heading-social {
-        color: #7F8CFF;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        margin: 5% 5%;
-    }
+  .header {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 52px;
+  }
 
-    .icons {
-        display: flex;
-    }
+  .heading-paragraph {
+    color: #344563;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 24px;
+  }
 
-    .icons li {
-        list-style-type: none;
-        padding-right: 5%;
-    }
+  .heading-social {
+    color: #7f8cff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5% 5%;
+  }
 
-    .icons li a {
-        align-items: baseline;
-    }
+  .icons {
+    display: flex;
+  }
 
+  .icons li {
+    list-style-type: none;
+    padding-right: 5%;
+  }
+
+  .icons li a {
+    align-items: baseline;
+  }
 }
