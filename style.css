@@ -2,3 +2,32 @@
     font-family: 'Poppins';
     font-style: normal;
 }
+
+@media screen and (max-width: 767px) {
+    html {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 58px 5%;
+    }
+
+    .logo {
+        color: #6070FF;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+}
