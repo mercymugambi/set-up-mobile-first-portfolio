@@ -26,19 +26,30 @@
   }
 
   .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     background-image: url("./assets/images/mobile-bg-image.png");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    top: 46px;
+    
   }
 
   .header {
+    display: flex;
     color: #172b4d;
+    align-items: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 20%;
     margin-left: 5%;
     margin-right: 5%;
     line-height: 52px;
+    order: 0;
   }
 
   .heading-paragraph {
@@ -61,8 +72,11 @@
 
   .icons {
     display: flex;
+    flex: none;
+    flex-grow: 0;
     border: 2px solid blue;
     gap: 8px;
+    order: 3;
   }
 
   .icons li {
