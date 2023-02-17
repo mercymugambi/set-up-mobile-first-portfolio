@@ -72,11 +72,11 @@
 
   .icons {
     display: flex;
-    flex: none;
     flex-grow: 0;
-    border: 2px solid blue;
-    gap: 8px;
-    order: 3;
+  }
+
+  #twitter {
+    margin-left: -45px;
   }
 
   .icons li {
@@ -86,4 +86,6 @@
 
   .icons li a {
     align-items: baseline;
+    justify-content: flex-start;
+
   }
