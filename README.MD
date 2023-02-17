@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 <a name="Mobile first portfolio"></a>
+# 📖 Mobile first portfolio<a name="Mobile first portfolio"></a>
 
 > This is my second microverse project under this program.
 
@@ -166,7 +166,7 @@ github pages
 > Below are future features to be added.
 
 - **more_content**
-- **mobile_version**
+- **desktop_version**
 - **contact_details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
