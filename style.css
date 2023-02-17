@@ -107,5 +107,132 @@ flex-grow: 0;
 }
 
 .cards {
-  
+  width: 295px;
+  height: 220px;
+  background: url(blog_drbl_4x.png);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cards-details {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+width: 295px;
+height: 288px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.title {
+width: 295px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.highlights {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+width: 236px;
+height: 32px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.highlight-text {
+width: 55px;
+height: 16px;
+text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #344563;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.counter {
+width: 8px;
+height: 8px;
+background: #C1C7D0;
+flex: none;
+flex-grow: 0;
+}
+
+.countertext {
+width: 88px;
+height: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #7A869A;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.cards-descriptions {
+  width: 295px;
+height: 76px;
+
+/* Body / 3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.grid-skills {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  align-items: center;
+  list-style: none;
+  margin: -20px 0 0 -10px;
+  gap: 8px;
+}
+
+.grid-skills >div {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  padding: 4px 12px;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  line-height: 16px;
+  color: #6070ff;
+  background: #EBEBFF;
+  border-radius: 8px;
 }
