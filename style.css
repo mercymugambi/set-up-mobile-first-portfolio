@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
@@ -9,7 +9,7 @@
   }
 
   body {
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .header-nav {
@@ -77,3 +77,4 @@
     align-items: baseline;
   }
 }
+
