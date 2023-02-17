@@ -3,11 +3,6 @@
   font-style: normal;
 }
 
-@media screen and (max-width: 767px) {
-  html {
-    box-sizing: border-box;
-  }
-
   body {
     background-color: #fff;
   }
@@ -66,6 +61,8 @@
 
   .icons {
     display: flex;
+    border: 2px solid blue;
+    gap: 8px;
   }
 
   .icons li {
@@ -76,4 +73,3 @@
   .icons li a {
     align-items: baseline;
   }
-}
