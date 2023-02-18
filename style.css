@@ -7,6 +7,10 @@ body {
   background-color: #fff;
 }
 
+#heading {
+
+}
+
 .header-nav {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +40,7 @@ body {
   border-bottom-left-radius: 60px;
   position: absolute;
   top: 46px;
-  border: 1px solid #dfe1e6;
+  height: 100vh;
 }
 
 .header {
