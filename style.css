@@ -94,210 +94,105 @@ body {
 }
 
 .projects-section {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1fr);
+  margin-top: 640px;
+  gap: 50px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 16px;
-  gap: 12px;
-  margin-top: 650px;
-  width: 327px;
-  height: 552px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
   border-radius: 16px;
+  border: solid #e5e5e5 1px;
+  background-color: #fff;
 }
 
-.cards {
-  width: 295px;
-  height: 220px;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.cards-details {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 295px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.title {
-  width: 295px;
-  height: 36px;
-  font-family: "Poppins", sans-serif;
+.card-details {
+  color: #172b4d;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.highlights {
+.highlight {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 12px;
-  width: 236px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .highlight-text {
-  width: 55px;
-  height: 16px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 13px;
+  font-style: normal;
   line-height: 16px;
   color: #344563;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.counter {
-  width: 8px;
-  height: 8px;
-  background: #c1c7d0;
-  flex: none;
-  flex-grow: 0;
 }
 
 .countertext {
-  width: 88px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 16px;
+  font-style: normal;
+  font-weight: 600;
   color: #7a869a;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.cards-descriptions {
-  width: 295px;
-  height: 76px;
-  font-family: "Poppins", sans-serif;
+.year {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-description {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.grid-skills {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-  align-items: center;
-  list-style: none;
-  margin: -20px 0 0 -10px;
-  gap: 8px;
-}
-
-.grid-skills > div {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-size: 12px;
-  padding: 4px 12px;
-  width: 45px;
-  height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.skills {
+  display: flex;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.03rem;
+  font-size: 12px;
   line-height: 16px;
   color: #6070ff;
+  list-style-type: none;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.skills li {
   background: #ebebff;
   border-radius: 8px;
+  padding: 4px 12px;
 }
 
 #popup {
-  box-sizing: border-box;
-  border: 1px solid #7f8cff;
-  background-color: #fff;
-  letter-spacing: 0.03rem;
-  line-height: 24px;
-  font-family: "Poppins", sans-serif;
-  border-radius: 8px;
-  padding: 12px;
-  bottom: 10px;
-  gap: 10px;
-  cursor: pointer;
-  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 17px;
-  font-weight: 500;
-  font-style: normal;
-  color: #396df2;
-}
-
-#section-cards {
-  margin-top: 50px;
-}
-
-#about {
-  position: absolute;
-}
-
-.lang {
-  color: #000;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  border-radius: 8px;
+  background-color: inherit;
+  padding: 12px;
+  gap: 10px;
   line-height: 24px;
-  margin-left: 10px;
-}
-
-.grid-languages {
-  display: grid;
-  grid-template-rows: auto;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.grid-languages > div {
-  background-color: #f7f7f9;
-  text-align: left;
-  padding: 20px 10px;
-  font-size: 30px;
-}
-
-.item1 {
-  grid-column: 1;
-}
-
-.arrow {
-  position: absolute;
-  top: 945px;
-  right: 66px;
-}
-
-.arrow2 {
-  position: absolute;
-  top: 1030px;
-  right: 66px;
-}
-
-.arrow-down {
-  position: absolute;
-  width: 0.87rem;
-  left: 285px;
-  margin-top: -30px;
-  color: #5e6c84;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  
 }
