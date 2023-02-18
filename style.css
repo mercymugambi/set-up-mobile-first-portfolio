@@ -232,76 +232,75 @@ body {
 }
 
 #popup {
-    box-sizing: border-box;
-    border: 1px solid #7f8cff;
-    background-color: #fff;
-    letter-spacing: 0.03rem;
-    line-height: 24px;
-    font-family: "Poppins", sans-serif;
-    border-radius: 8px;
-    padding: 12px;
-    bottom: 10px;
-    gap: 10px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 500;
-    font-style: normal;
-    color: #396df2;
-  }
+  box-sizing: border-box;
+  border: 1px solid #7f8cff;
+  background-color: #fff;
+  letter-spacing: 0.03rem;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  padding: 12px;
+  bottom: 10px;
+  gap: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  color: #396df2;
+}
 
-  #section-cards {
-    margin-top: 50px;
-  }
+#section-cards {
+  margin-top: 50px;
+}
 
-  #about {
+#about {
   position: absolute;
-  }
-  .lang {
-    color: #000000;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-margin-left: 10px;
-  }
+}
+.lang {
+  color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 10px;
+}
 
-  .grid-languages {
-    display: grid;
-    grid-template-rows: auto ;
-    grid-gap: 10px;
-    padding: 10px;
-  }
-  
-  .grid-languages > div {
-    background-color: #F7F7F9;
-    text-align: left;
-    padding: 20px 10px;
-    font-size: 30px;
-  }
-  
-  .item1 {
-    grid-column: 1;
-  }
+.grid-languages {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
 
-  .arrow {
-    position: absolute;
-    top: 945px;
-    right: 66px;
-  }
+.grid-languages > div {
+  background-color: #f7f7f9;
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 30px;
+}
 
-  .arrow2 {
-    position: absolute;
-    top: 1030px;
-    right: 66px;
-  }
+.item1 {
+  grid-column: 1;
+}
 
-  .arrow-down {
-      position: absolute;
-      width: 0.87rem;
-      left: 285px;
-      margin-top: -30px;
-      color: #5e6c84;
-  }
+.arrow {
+  position: absolute;
+  top: 945px;
+  right: 66px;
+}
 
+.arrow2 {
+  position: absolute;
+  top: 1030px;
+  right: 66px;
+}
+
+.arrow-down {
+  position: absolute;
+  width: 0.87rem;
+  left: 285px;
+  margin-top: -30px;
+  color: #5e6c84;
+}
