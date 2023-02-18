@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
 }
 
@@ -50,6 +50,7 @@ body {
   margin-right: 5%;
   line-height: 52px;
   order: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .heading-paragraph {
@@ -58,8 +59,9 @@ body {
   font-size: 16px;
   margin-left: 5%;
   margin-right: 5%;
-  text-align: justify;
   line-height: 24px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 
 .heading-social {
@@ -194,7 +196,7 @@ body {
 
 .about {
   background-color: #fff;
-  border-radius: 0 100px 0 0 / 100px;
+  border-top-right-radius: 50px;
   padding-top: 8%;
   padding-left: 4%;
   padding-right: 4%;
