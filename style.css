@@ -178,11 +178,6 @@ body {
   padding: 4px 12px;
 }
 
-.skills li:hover {
-  cursor: pointer;
-  border: solid #6070ff;
-}
-
 #popup {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -197,16 +192,6 @@ body {
   border: 1px solid #6070ff;
 }
 
-#popup:hover {
-  cursor: pointer;
-  color: #fff;
-  background-color: #6070ff;
-}
-
-#popup:active {
-  box-shadow: 2px 2px 5px #6070ff;
-}
-
 .about {
   background-color: #fff;
   border-radius: 0 100px 0 0 / 100px;
@@ -214,15 +199,6 @@ body {
   padding-left: 4%;
   padding-right: 4%;
   margin-top: 16%;
-}
-
-.myself {
-  color: #172b4d;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
 }
 
 .connect {
@@ -291,4 +267,19 @@ body {
   gap: 16px;
   list-style-type: none;
   padding-left: 8px;
+}
+
+.skills li:hover {
+  cursor: pointer;
+  border: solid #6070ff;
+}
+
+#popup:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #6070ff;
+}
+
+#popup:active {
+  box-shadow: 2px 2px 5px #6070ff;
 }
