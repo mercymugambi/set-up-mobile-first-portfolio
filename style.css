@@ -238,9 +238,17 @@ body {
   padding-left: 0;
 }
 
+.lang li h4 {
+  width: 254px;
+}
+
 .icons-lang {
   list-style-type: none;
   padding-left: 0;
+}
+
+.arrows {
+  width: 256px;
 }
 
 .icons-lang li {
