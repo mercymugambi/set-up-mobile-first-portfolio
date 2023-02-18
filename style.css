@@ -114,7 +114,6 @@ body {
 .cards-details {
   display: flex;
   flex-direction: column;
-  padding: 0px;
   gap: 12px;
   width: 295px;
   flex: none;
@@ -139,7 +138,6 @@ body {
 .highlights {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 0px;
   gap: 12px;
   width: 236px;
