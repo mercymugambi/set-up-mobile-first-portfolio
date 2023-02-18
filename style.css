@@ -31,7 +31,6 @@ body {
   justify-content: center;
   width: 100%;
   background-image: url("./assets/images/mobile-bg-image.png");
-  border: 1px solid black;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 60px;
@@ -90,8 +89,6 @@ body {
   justify-content: flex-start;
 }
 
-/*--section details--*/
-
 .projects-section {
   display: flex;
   flex-direction: column;
@@ -120,7 +117,6 @@ body {
   padding: 0px;
   gap: 12px;
   width: 295px;
-  height: 288px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -147,7 +143,6 @@ body {
   padding: 0px;
   gap: 12px;
   width: 236px;
-  height: 32px;
   flex: none;
   order: 1;
   flex-grow: 0;
