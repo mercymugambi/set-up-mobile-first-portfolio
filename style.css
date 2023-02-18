@@ -109,7 +109,7 @@ body {
 
 .card-details {
   color: #172b4d;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -124,7 +124,7 @@ body {
 }
 
 .highlight-text {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 13px;
   font-style: normal;
@@ -133,7 +133,7 @@ body {
 }
 
 .countertext {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 16px;
   font-style: normal;
@@ -142,7 +142,7 @@ body {
 }
 
 .year {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   color: #7a869a;
@@ -151,7 +151,7 @@ body {
 }
 
 .card-description {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 24px;
   font-style: normal;
@@ -161,7 +161,7 @@ body {
 
 .skills {
   display: flex;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -184,7 +184,7 @@ body {
 }
 
 #popup {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -216,11 +216,38 @@ body {
   margin-top: 16%;
 }
 
-.languages {
+.myself {
+  color: #172b4d;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.connect {
+  color: #7f8cff;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.heading-main {
+  color: #172b4d;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.lang {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -233,17 +260,17 @@ body {
   padding-left: 0;
 }
 
-.prlanguages {
+.icons-lang {
   list-style-type: none;
   padding-left: 0;
 }
 
-.prlanguages li {
+.icons-lang li {
   display: flex;
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -254,6 +281,14 @@ body {
   padding: 12px;
 }
 
-.separa {
+.separator {
   width: 100%;
+}
+
+#soc_icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style-type: none;
+  padding-left: 8px;
 }
