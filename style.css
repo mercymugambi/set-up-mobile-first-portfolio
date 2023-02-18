@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
 }
 
@@ -21,8 +21,8 @@ body {
   line-height: 20px;
 }
 
-.hamburger {
-  display: block;
+#hamburger {
+  display: flex;
 }
 
 .heading {
@@ -36,6 +36,7 @@ body {
   border-bottom-left-radius: 60px;
   position: absolute;
   top: 46px;
+  height: 100vh;
 }
 
 .header {
@@ -49,6 +50,7 @@ body {
   margin-right: 5%;
   line-height: 52px;
   order: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .heading-paragraph {
@@ -57,8 +59,9 @@ body {
   font-size: 16px;
   margin-left: 5%;
   margin-right: 5%;
-  text-align: justify;
   line-height: 24px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 
 .heading-social {
@@ -86,4 +89,207 @@ body {
 .icons li a {
   align-items: baseline;
   justify-content: flex-start;
+}
+
+.projects-section {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1fr);
+  margin-top: 700px;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 16px;
+  border: solid #e5e5e5 1px;
+  background-color: #fff;
+}
+
+.card-details {
+  color: #172b4d;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.highlight-text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 16px;
+  color: #344563;
+}
+
+.countertext {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #7a869a;
+}
+
+.year {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-description {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: #344563;
+}
+
+.skills {
+  display: flex;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  list-style-type: none;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.skills li {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+#popup {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 8px;
+  background-color: inherit;
+  padding: 12px;
+  gap: 10px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+}
+
+.about {
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  padding-top: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 16%;
+}
+
+.connect {
+  color: #7f8cff;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.heading-main {
+  color: #172b4d;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-left: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lang li h4 {
+  width: 254px;
+}
+
+.icons-lang {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.arrows {
+  width: 256px;
+}
+
+.icons-lang li {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin: 16px;
+  gap: 16px;
+  padding: 12px;
+}
+
+.separator {
+  width: 100%;
+}
+
+#soc_icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style-type: none;
+  padding-left: 8px;
+}
+
+.skills li:hover {
+  cursor: pointer;
+  border: solid #6070ff;
+}
+
+#popup:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #6070ff;
+}
+
+#popup:active {
+  box-shadow: 2px 2px 5px #6070ff;
 }
