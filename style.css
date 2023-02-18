@@ -138,7 +138,6 @@ body {
 .highlights {
   display: flex;
   flex-direction: row;
-  padding: 0px;
   gap: 12px;
   width: 236px;
   flex: none;
