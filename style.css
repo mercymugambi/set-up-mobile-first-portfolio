@@ -162,7 +162,8 @@ body {
 }
 
 .skills {
-  display: flex;
+  display: float;
+  /* display: flex; */
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -170,14 +171,23 @@ body {
   line-height: 16px;
   color: #6070ff;
   list-style-type: none;
-  gap: 16px;
+  /* gap: 16px; */
   padding-left: 0;
 }
 
 .skills li {
+  float: left;
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
+}
+
+.skills #css {
+  margin-left: 10px;
+}
+
+.skills #javascript {
+  margin-left: 10px;
 }
 
 #popup {
