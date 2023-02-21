@@ -306,18 +306,17 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #6070ff;
-  height: 840px;
+  height: 900px;
   border-radius: 70px 0 0 0;
   background-image: url("./assets/images/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   gap: 10px;
   padding: 0 12px 0 12px;
@@ -328,7 +327,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   color: #fff;
-  /* margin: 0px; */
+  padding-top: 130px;
 }
 
 .contact-description {
@@ -377,7 +376,32 @@ textarea::placeholder {
   padding: 16px;
 }
 
+.btn {
+  background: #fff;
+  border-radius: 8px;
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  border: 1px solid #7f8cff;
+  top: 5317px;
+  align-items: center;
+  padding: 12px 16px;
+  color: #6070FF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.btn:active {
+  background-color: #2230d2;
+}
+
+.btn:hover {
+  color: white;
+}
 .shape {
   display: grid;
+  width: 134px;
   place-items: center;
+  margin-top: 75px;
 }
