@@ -320,3 +320,11 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+}
