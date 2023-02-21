@@ -327,6 +327,7 @@ body {
   /* align-items: center; */
   justify-content: center;
   gap: 10px;
+  padding: 0 12px 0 12px;
 }
 
 .contact-heading {
@@ -343,4 +344,24 @@ body {
   color:#EBEBFF;
   margin: 0px;
   padding: 0 0 0 24px;
+}
+
+.name {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 16px;
+  color: #172B4D;
+}
+
+.shape {
+  display: grid;
+  place-items: center;
 }
