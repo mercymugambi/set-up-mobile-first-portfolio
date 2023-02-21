@@ -167,7 +167,7 @@ body {
 
 .skills {
   display: float;
-  /* display: flex; */
+  display: flex;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -175,7 +175,7 @@ body {
   line-height: 16px;
   color: #6070ff;
   list-style-type: none;
-  /* gap: 16px; */
+  gap: 16px;
   padding-left: 0;
 }
 
@@ -184,14 +184,6 @@ body {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-}
-
-.skills #css {
-  margin-left: 10px;
-}
-
-.skills #javascript {
-  margin-left: 10px;
 }
 
 #popup {
@@ -314,11 +306,12 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #6070ff;
-  height: 100vh;
+  height: 840px;
   border-radius: 70px 0 0 0;
-  background-image: url("/assets/images/contact-bg.png");
+  background-image: url("./assets/images/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
   background-position: top right;
+  background-size: 100%;
 }
 
 .form {
@@ -335,6 +328,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   color: #fff;
+  /* margin: 0px; */
 }
 
 .contact-description {
@@ -359,6 +353,28 @@ input::placeholder {
   font-size: 17px;
   padding: 16px;
   color: #172B4D;
+}
+
+.email {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+}
+
+textarea{
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+}
+
+textarea::placeholder {
+  color: #B3BAC5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 16px;
 }
 
 .shape {
