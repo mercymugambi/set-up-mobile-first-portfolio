@@ -335,3 +335,12 @@ body {
   font-size: 40px;
   color: #fff;
 }
+
+.contact-description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color:#EBEBFF;
+  margin: 0px;
+  padding: 0 0 0 24px;
+}
