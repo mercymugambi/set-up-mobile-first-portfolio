@@ -335,7 +335,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: #ebebff;
-  margin: 0px;
   padding: 0 0 0 24px;
 }
 
@@ -399,6 +398,7 @@ textarea::placeholder {
 .btn:hover {
   color: white;
 }
+
 .shape {
   display: grid;
   width: 134px;
