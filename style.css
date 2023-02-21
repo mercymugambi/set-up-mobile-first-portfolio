@@ -328,3 +328,10 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
+.contact-heading {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
