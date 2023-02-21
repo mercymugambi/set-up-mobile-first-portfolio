@@ -3,6 +3,10 @@
   font-style: normal;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background-color: #fff;
 }
