@@ -405,3 +405,7 @@ textarea::placeholder {
   place-items: center;
   margin-top: 55px;
 }
+
+@media screen and (max-width: 768px) {
+  
+}
