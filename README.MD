@@ -151,11 +151,17 @@ github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Mercy Mugambi**
 
 - GitHub: @mercymugambi(https://github.com/mercymugambi)
 - Twitter: @mercymugambi(https://twitter.com/MercyMugambi15)
 - LinkedIn: @mercymugambi(https://www.linkedin.com/in/mercymugambi/)
+
+👤 **Gladwin Tshepo Ramantso**
+
+- GitHub: @tsheporamantso(https://github.com/tsheporamantso)
+- Twitter: @ramgt001(https://twitter.com/tsheporamantso)
+- LinkedIn: @GladwinTshepoRamantso(https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,6 +174,7 @@ github pages
 - **more_content**
 - **desktop_version**
 - **contact_details**
+- **JavaScript Functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +198,7 @@ If you like this project, follow and contact me back.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse community and my coding partner(Yinka) for their dedicated time to encourage me achieve the best. 
+I would like to thank microverse community and my coding partner(Yinka and Gladwin) for their dedicated time to encourage me achieve the best. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

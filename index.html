@@ -7,7 +7,7 @@
     <title>MERCY MUGAMBI</title>
 
     <!--stylesheet-->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="heading">
@@ -87,9 +87,9 @@
             </p>
           </article>
           <ul class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
+            <li id="html">html</li>
+            <li id="css">css</li>
+            <li id="javascript">javascript</li>
           </ul>
           <button id="popup" type="button">See Project</button>
         </div>
@@ -234,30 +234,82 @@
           <li><img src="./assets/images/css.png" alt="Ellipse" />CSS</li>
         </ul>
         <div>
-        <ul class="lang">
-          <li><h4>Frameworks</h4></li>
-          <li class="arrows">
-            <img src="./assets/images/arrow.png" alt="arrow.png" />
-          </li>
-        </ul>
-        </div>
-        <img
-          class="Separator"
-          src="./assets/images/Separator Bottom.png"
-          alt="Separator"/>
-        <div>
-        <ul class="lang">
-          <li><h4>Skills</h4></li>
-          <li class="arrows">
-            <img src="/assets/images/arrow.png" alt="arrow.png" />
-          </li>
-        </ul>
+          <ul class="lang">
+            <li><h4>Frameworks</h4></li>
+            <li class="arrows">
+              <img src="./assets/images/arrow.png" alt="arrow.png" />
+            </li>
+          </ul>
         </div>
         <img
           class="Separator"
           src="./assets/images/Separator Bottom.png"
           alt="Separator"
         />
+        <div>
+          <ul class="lang">
+            <li><h4>Skills</h4></li>
+            <li class="arrows">
+              <img src="/assets/images/arrow.png" alt="arrow.png" />
+            </li>
+          </ul>
+        </div>
+        <img
+          class="Separator"
+          src="./assets/images/Separator Bottom.png"
+          alt="Separator"
+        />
+      </div>
+    </section>
+    <section class="contact-page-container">
+      <h2 class="contact-heading">Contact me</h2>
+      <p class="contact-description">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I'd love to help
+        with it
+      </p>
+      <form action="https://formspree.io/f/moqbgzon" method="post" id="form">
+        <ul class="form">
+          <li>
+            <label for="name"></label>
+            <input
+              class="name"
+              type="text"
+              name="fullName"
+              id="user_name"
+              placeholder="Mercy"
+              required
+              maxlength="30"
+            />
+          </li>
+          <li>
+            <label for="mail"></label>
+            <input
+              type="email"
+              placeholder="mercymugambi2016@gmail.com"
+              id="email"
+              class="email"
+              name="email"
+              required
+            />
+          </li>
+          <li>
+            <label for="msg"></label>
+            <textarea
+              name="textarea"
+              class="msg"
+              maxlength="500"
+              required
+              placeholder="Write your message here"
+            ></textarea>
+          </li>
+          <li>
+            <button class="get-in-touch btn">Get in touch</button>
+          </li>
+        </ul>
+      </form>
+      <div class="shape">
+        <img class="shape" src="./assets/images/Shape.svg" alt="" />
       </div>
     </section>
   </body>
