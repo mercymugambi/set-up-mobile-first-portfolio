@@ -8,13 +8,13 @@ ul {
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(99, 90, 90);
+  margin: 0;
 }
 
 /*landing-page*/
 
 .landing-page {
-  position: absolute;
   width: 100%;
   height: 718px;
   left: 0px;
@@ -137,8 +137,10 @@ body {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(1fr);
-  margin-top: 740px;
+  margin-top: 40px;
   gap: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card {
@@ -451,7 +453,11 @@ textarea::placeholder {
   margin-top: 55px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 376px){
+@media screen and (min-width: 768px){
+  .landing-page {
+    width: 100%;
+    margin: auto;
+  }
   .nav-items {
     display: flex;
   }
@@ -511,7 +517,6 @@ textarea::placeholder {
 
   .headline-text {
     align-self: center;
-    margin-top: 15%;
   }
 
   .headline-paragraph {
@@ -527,28 +532,83 @@ textarea::placeholder {
   }
 
   .icons {
-    margin-left: 27px;
+    margin-left: 0;
   }
 
   .projects-section {
-    margin-top: 720px;
+    margin-top: 40px;
+    margin-right: 12px;
+    margin-left: 12px;
   }
 
   .card {
-    width: 100%;
     display: flex;
     flex-direction: row;
     border: 1px solid #1e315f;
     padding: 24px;
   }
 
-  .tonic-area {
-    margin-left: 20px;
+  .card-image {
+    width: 100%;
+    height: 100%;
   }
 
-  
+  .tonic-area {
+  color: #344563;
+  font-size: 2vw;
+  margin-left: 24px;
+}
 
+.cards-details {
+  color: #091E42;
+}
 
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 0 0;
+}
 
+.about-mobile {
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
 
+.heading-social {
+  padding-left: 0;
+}
+
+.about-lang {
+  margin-top: -10%;
+  margin-bottom: 80px;
+  font-size: 2vw;
+}
+
+.lang {
+  margin-top: 12px;
+}
+
+.icons-lang{
+  display: flex;
+  flex-direction: row;
+}
+
+.li-icons {
+  display: flex;
+  flex-direction: column;
+  width: 122px;
+  height: 120px;
+}
+
+.arrows {
+  padding-left: 40%;
+}
+
+.Separator {
+  width: 100%;
+}
+
+.contact-description {
+  text-align: center;
+}
 }
