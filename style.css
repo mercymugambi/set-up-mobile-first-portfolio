@@ -11,88 +11,126 @@ body {
   background-color: #fff;
 }
 
+/*landing-page*/
+.landing-page {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
+  background-color: #fff;
+}
+
 .header-nav {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 58px 5%;
+  align-items: center;
+  position: absolute;
+  align-items: center;
+  height: 48px;
+  left: 0px;
+  right: 0px;
+  top: 44px;
+  bottom: 0px;
 }
 
 .logo {
+  padding: 10px 1px;
+  height: 15px;
+  margin-left: 12px;
+  align-items: center;
+  top: 5px;
+}
+
+.logo-text {
   color: #6070ff;
+  margin-right: 339px;
+  font-family: "poppins", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
+  text-align: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0px;
 }
 
-#hamburger {
-  display: flex;
+.bars {
+  align-content: flex-end;
+  padding: 10px 1px;
+  height: 15px;
+  margin-left: 211px;
+  align-items: center;
+  margin-right: 12px;
+  top: 5px;
 }
 
-.heading {
+.nav-items {
+  display: none;
+}
+
+.headline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 92px 0;
   background-image: url("./assets/images/mobile-bg-image.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  border-bottom-left-radius: 60px;
+  background-size: cover;
   position: absolute;
-  top: 46px;
-  height: 100vh;
+  width: 100%;
+  height: 604px;
+  position: top left;
+  border-bottom-left-radius: 60px;
 }
 
-.header {
-  display: flex;
-  color: #172b4d;
-  align-items: center;
+.headline-text {
+  margin: 0;
+  padding-top: 116px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 150px;
+  width: 327px;
+  font-family: "Poppins" sans-serif;
   font-weight: 700;
   font-size: 40px;
-  padding-top: 20%;
-  margin-left: 5%;
-  margin-right: 5%;
   line-height: 52px;
-  order: 0;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
 }
 
-.heading-paragraph {
-  color: #344563;
+.headline-paragraph {
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 327px;
+  height: 140px;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  margin-left: 5%;
-  margin-right: 5%;
   line-height: 24px;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: #344563;
+  align-items: center;
 }
 
 .heading-social {
-  color: #7f8cff;
+  margin: 0;
+  padding-left: 24px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin: 5% 5%;
+  color: #7f8cff;
 }
 
 .icons {
   display: flex;
-  flex-grow: 0;
-}
-
-#twitter {
-  margin-left: -45px;
-}
-
-.icons li {
-  list-style-type: none;
-  padding-right: 5%;
-}
-
-.icons li a {
-  align-items: baseline;
-  justify-content: flex-start;
+  flex-direction: row;
+  padding-left: 24px;
+  gap: 0 12px;
 }
 
 .projects-section {
@@ -204,9 +242,12 @@ body {
   background-color: #fff;
   border-top-right-radius: 50px;
   padding-top: 8%;
-  padding-left: 4%;
   padding-right: 4%;
-  margin-top: 16%;
+  margin-top: 12px;
+}
+
+#about {
+  padding-top: 150px;
 }
 
 .connect {
@@ -406,6 +447,38 @@ textarea::placeholder {
   margin-top: 55px;
 }
 
-@media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 768px) and (min-width: 376px) {
+  .nav-items {
+    display: flex;
+  }
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    margin: 0 10px;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .heading {
+    background-image: none;
+  }
+
+  .heading {
+    background-image: url("./assets/images/mobile-bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    padding-top: 10px;
+  }
 }

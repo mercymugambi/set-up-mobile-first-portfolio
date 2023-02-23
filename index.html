@@ -10,31 +10,38 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="heading">
-      <header class="header-nav">
-        <a href="#" class="logo">MER<span>cy</span></a>
-        <nav id="hamburger">
-          <img src="/assets/images/bars.png" alt="menu" />
-        </nav>
-      </header>
-
-      <section class="heading">
-        <div class="header">
-          <h1>I’m MERCY <br />Glad to see <br />you!</h1>
+    <header class="landing-page">
+      <div class="header-nav">
+        <div class="logo">
+        <a href="#" class="logo-text">MER<span>cy</span></a>
         </div>
+        <nav class="menu">
+          <div class="bars">
+          <img id="hamburger" src="./assets/images/bars.png" alt="menu" />
+          </div>
+          <ul class="nav-items">
+            <li>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="heading-paragraph">
-          <p>
+      <section class="headline">
+          <h1 class="headline-text">I’m MERCY <br />Glad to see <br />you!</h1>
+          <p class="headline-paragraph">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
             contact me.
           </p>
-        </div>
-        <div class="heading-social">
-          <div class="icons-header">
-            <p>LET’S CONNECT</p>
-          </div>
+          <p class="heading-social">LET’S CONNECT</p>
           <ul class="icons">
             <li id="twitter">
               <a href="https://twitter.com/MercyMugambi15" target="_blank"
@@ -64,9 +71,8 @@
               /></a>
             </li>
           </ul>
-        </div>
+        </header>
       </section>
-    </div>
     <!--Start of detailed section-->
     <section class="projects-section">
       <div class="card">
@@ -172,19 +178,16 @@
     </section>
     <!--about-->
     <section class="about">
-      <div class="header1">
-        <h2 class="header">
+        <h2 class="headline-text">
           About<br />
           Myself
         </h2>
-        <article class="heading-paragraph">
-          <p>
+          <p class="headline-paragraph">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-        </article>
         <div class="heading-social">
           <h2 class="icons-header">LET'S CONNECT</h2>
           <div>
@@ -218,7 +221,6 @@
           </div>
           <button type="button" id="popup">Get my resume</button>
         </div>
-      </div>
       <div id="about">
         <div>
           <ul class="lang">
