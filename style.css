@@ -166,6 +166,10 @@ body {
   line-height: 44px;
 }
 
+.projects-section-desktop {
+  display: none;
+}
+
 .highlight {
   display: flex;
   flex-direction: row;
@@ -556,46 +560,80 @@ textarea::placeholder {
     margin-left: 0;
   }
 
-  .projects-section {
-    margin-top: 200px;
-    margin-right: 12px;
-    margin-left: 12px;
-    width: 1156px;
+.projects-section {
+  display: none;
+}
 
+  .projects-section-desktop {
+    /* display: flex;
+    flex-direction: column; */
+    /* margin-top: 200px;
+    margin-right: 12px;
+    margin-left: 12px;*/
+    display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1fr);
+  place-items: center;
+  /* margin-top: 40px; */
+  margin-top: 100px;
+  gap: 50px;
+  margin-left: 190px;
+  
+    
+  /* 
+  margin-right: 10px; */
   }
 
-  .card {
+  .projects-section-desktop .card {
     display: flex;
     flex-direction: row;
     border: 1px solid #1e315f;
     padding: 24px;
+    height: 496px;
+    width: 1156px;
+    gap: 12px;
   }
 
-  .card-image {
+  .projects-section-desktop .card-image {
     width: 100%;
     height: 100%;
   }
 
-  .tonic-area {
+  .projects-section-desktop .tonic-area {
     color: #344563;
     font-size: 2vw;
     margin-left: 24px;
   }
 
-  .cards-details {
+  .projects-section-desktop .cards-details {
     color: #091e42;
   }
 
-  #card1 {
-    order: 2;
+  .projects-section-desktop .highlight-text {
+    margin: 10px 10px 10px 0;
   }
 
-  #card2 {
+  .projects-section-desktop .countertext {
+    margin: 10px;
+  }
+
+  .projects-section-desktop .year {
+    margin-left: 10px;
+  }
+
+  .projects-section-desktop .card-description {
+    margin-left: 10px;
+  }
+
+  .projects-section-desktop .skills {
+    margin: 20px 10px 30px 0;
+  }
+
+  #project2 {
     flex-direction: row-reverse !important;
-    order: 2;
   }
 
-  #card4 {
+  #project4 {
     flex-direction: row-reverse;
   }
 
