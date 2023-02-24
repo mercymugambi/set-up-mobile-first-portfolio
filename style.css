@@ -315,7 +315,7 @@ body {
   padding: 12px;
 }
 
-.separator {
+.Separator {
   width: 100%;
 }
 
@@ -540,7 +540,7 @@ textarea::placeholder {
   .break {
     display: none;
   }
-/* 
+  /* 
   .heading-social {
     margin-left: 25px;
     padding-left: 0;
@@ -566,7 +566,7 @@ textarea::placeholder {
   .projects-section-desktop .card {
     display: flex;
     flex-direction: row;
-    border: 1px solid #1e315f;
+    border: 1px solid #DFE1E6;
     /* padding: 24px; */
     height: 496px;
     /* width: 1156px; */
@@ -665,7 +665,7 @@ textarea::placeholder {
   }
 
   .Separator {
-    width: 80%;
+    width: 100%;
   }
 
   .contact-page-container {
@@ -701,4 +701,9 @@ textarea::placeholder {
     background-color: #6070ff;
     color: fff;
   }
+
+  .arrows {
+    width: 2px;
+  }
+
 }
