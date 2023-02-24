@@ -8,7 +8,7 @@ ul {
 }
 
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   margin: 0;
 }
 
@@ -500,9 +500,8 @@ textarea::placeholder {
     bottom: 50px;
     right: 120px;
     gap: 15px;
-  
   }
-  
+
   .nav-link {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -514,7 +513,6 @@ textarea::placeholder {
     text-decoration: none;
     justify-content: space-between;
   }
-
 
   #hamburger {
     display: none;
@@ -547,7 +545,6 @@ textarea::placeholder {
     left: 308px;
   }
 
-
   .break {
     display: none;
   }
@@ -560,9 +557,9 @@ textarea::placeholder {
     margin-left: 0;
   }
 
-.projects-section {
-  display: none;
-}
+  .projects-section {
+    display: none;
+  }
 
   .projects-section-desktop {
     /* display: flex;
@@ -571,16 +568,15 @@ textarea::placeholder {
     margin-right: 12px;
     margin-left: 12px;*/
     display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(1fr);
-  place-items: center;
-  /* margin-top: 40px; */
-  margin-top: 100px;
-  gap: 50px;
-  margin-left: 190px;
-  
-    
-  /* 
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1fr);
+    place-items: center;
+    /* margin-top: 40px; */
+    margin-top: 100px;
+    gap: 50px;
+    margin-left: 190px;
+
+    /* 
   margin-right: 10px; */
   }
 
@@ -682,15 +678,14 @@ textarea::placeholder {
     flex-direction: column;
     width: 118px;
     height: 100px;
-    
   }
 
   .icons-lang {
     margin: 0 0;
   }
-.lang {
-  margin-top: 0;
-}
+  .lang {
+    margin-top: 0;
+  }
 
   .Separator {
     width: 80%;
