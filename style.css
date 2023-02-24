@@ -539,11 +539,11 @@ textarea::placeholder {
   .break {
     display: none;
   }
-  
+
   .projects-section {
     display: none;
   }
-
+  
   .projects-section-desktop {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
