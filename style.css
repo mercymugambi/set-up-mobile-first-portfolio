@@ -12,13 +12,9 @@ body {
   margin: 0;
 }
 
-/*landing-page*/
-
 .landing-page {
   width: 100%;
   height: 1020px;
-  left: 0px;
-  top: 0px;
   background-color: #fff;
 }
 
@@ -28,12 +24,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   position: absolute;
-  align-items: center;
   height: 48px;
-  left: 0px;
-  right: 0px;
   top: 44px;
-  bottom: 0px;
 }
 
 .logo {
@@ -53,7 +45,6 @@ body {
   text-align: center;
   align-items: center;
   margin: 0 10px;
-  padding: 0px;
 }
 
 .bars {
@@ -79,7 +70,7 @@ body {
   background-image: url("./assets/images/mobile-bg-image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  margin-top: 0;
   width: 100%;
   height: 604px;
   position: top left;
@@ -471,7 +462,6 @@ textarea::placeholder {
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    align-items: center;
     position: fixed;
     justify-content: space-between;
     align-items: center;
@@ -523,12 +513,9 @@ textarea::placeholder {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin: 35px 0; */
-    /* border: 2px solid red; */
     background-image: url("./assets/images/header-bg.png");
     background-repeat: no-repeat;
-    background-position: 20px 0px;
-    /* background-size: cover; */
+    background-position: 20px 0;
     height: 825px;
     width: 1585px;
   }
@@ -562,22 +549,13 @@ textarea::placeholder {
   }
 
   .projects-section-desktop {
-    /* display: flex;
-    flex-direction: column; */
-    /* margin-top: 200px;
-    margin-right: 12px;
-    margin-left: 12px;*/
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(1fr);
     place-items: center;
-    /* margin-top: 40px; */
     margin-top: 100px;
     gap: 50px;
     margin-left: 190px;
-
-    /* 
-  margin-right: 10px; */
   }
 
   .projects-section-desktop .card {
@@ -647,10 +625,6 @@ textarea::placeholder {
     margin-left: 100px;
   }
 
-  .heading-social {
-    padding-left: 0;
-  }
-
   .about-lang {
     margin-top: -10%;
     margin-bottom: 80px;
@@ -680,20 +654,15 @@ textarea::placeholder {
     height: 100px;
   }
 
-  .icons-lang {
-    margin: 0 0;
-  }
-  .lang {
-    margin-top: 0;
-  }
-
   .Separator {
     width: 80%;
   }
+
   .contact-page-container {
     background-image: url("./assets/images/contact\ form\ background\ shapes@2x.png");
     width: 1585px;
   }
+
   .contact-description {
     width: 500px;
     font-family: "Poppins", sans-serif;
