@@ -44,7 +44,8 @@ body {
   font-size: 18px;
   text-align: center;
   align-items: center;
-  margin: 0 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .bars {
@@ -499,7 +500,6 @@ textarea::placeholder {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
-    /* margin: 0 10px 0 0; */
     text-decoration: none;
     justify-content: space-between;
   }
@@ -538,6 +538,7 @@ textarea::placeholder {
 
   .heading-social {
     margin-left: 25px;
+    padding-left: 0;
   }
 
   .icons {
