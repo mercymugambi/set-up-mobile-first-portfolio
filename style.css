@@ -3,6 +3,10 @@
   font-style: normal;
 }
 
+img:hover {
+ transform: scale(1.04);
+}
+
 ul {
   list-style: none;
 }
