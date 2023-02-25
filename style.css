@@ -509,6 +509,14 @@ textarea::placeholder {
     color: #344563;
     text-decoration: none;
     justify-content: space-between;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav-link:hover {
+    color: #344563;
+    background-color: #e5e5e5;
+    transform: scale(1.04);
+
   }
 
   #hamburger {
