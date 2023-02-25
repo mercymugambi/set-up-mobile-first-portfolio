@@ -4,7 +4,7 @@
 }
 
 img:hover {
- transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 ul {
@@ -516,7 +516,6 @@ textarea::placeholder {
     color: #344563;
     background-color: #e5e5e5;
     transform: scale(1.04);
-
   }
 
   #hamburger {
