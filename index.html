@@ -10,32 +10,39 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="heading">
-      <header class="header-nav">
-        <a href="#" class="logo">MER<span>cy</span></a>
-        <nav id="hamburger">
-          <img src="/assets/images/bars.png" alt="menu" />
-        </nav>
-      </header>
-
-      <section class="heading">
-        <div class="header">
-          <h1>I’m MERCY <br />Glad to see <br />you!</h1>
+    <header class="landing-page">
+      <div class="header-nav">
+        <div class="logo">
+        <a href="#" class="logo-text">MER<span>cy</span></a>
         </div>
+        <nav class="menu">
+          <div class="bars">
+          <img id="hamburger" src="./assets/images/bars.png" alt="menu" />
+          </div>
+          <ul class="nav-items">
+            <li>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="heading-paragraph">
-          <p>
+      <section class="headline">
+          <h1 class="headline-text" id="headline-text">I’m MERCY <br/>Glad to see <br class="break" />you!</h1>
+          <p class="headline-paragraph" id="headline-paragraph">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
             contact me.
           </p>
-        </div>
-        <div class="heading-social">
-          <div class="icons-header">
-            <p>LET’S CONNECT</p>
-          </div>
-          <ul class="icons">
+          <p class="heading-social" id="heading-social">LET’S CONNECT</p>
+          <ul class="icons" id="icons">
             <li id="twitter">
               <a href="https://twitter.com/MercyMugambi15" target="_blank"
                 ><img src="./assets/icons/twitter.png"
@@ -50,7 +57,7 @@
             </li>
             <li>
               <a href="https://github.com/mercymugambi" target="_blank"
-                ><img src="/assets/icons/github.png"
+                ><img src="./assets/icons/github.png"
               /></a>
             </li>
             <li>
@@ -64,13 +71,12 @@
               /></a>
             </li>
           </ul>
-        </div>
+        </header>
       </section>
-    </div>
     <!--Start of detailed section-->
     <section class="projects-section">
-      <div class="card">
-        <img src="./assets/images/project1.png" alt="project1.png" />
+      <div class="card" >
+        <img class="card-image" src="./assets/images/project1.png" alt="project1.png"/>
         <div class="tonic-area">
           <h2 class="cards-details">TONIC</h2>
           <div class="highlights">
@@ -95,7 +101,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="./assets/images/project2.png" alt="project1.png" />
+        <img class="card-image" src="./assets/images/project2.png" alt="project1.png" />
         <div class="tonic-area">
           <h2 class="cards-details">TONIC</h2>
           <div class="highlights">
@@ -120,7 +126,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="./assets/images/project3.png" alt="project1.png" />
+        <img class="card-image" src="./assets/images/project3.png" alt="project1.png" />
         <div class="tonic-area">
           <h2 class="cards-details">TONIC</h2>
           <div class="highlights">
@@ -145,7 +151,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="./assets/images/project4.png" alt="project4.png" />
+        <img class="card-image" src="./assets/images/project4.png" alt="project4.png" />
         <div class="tonic-area">
           <h2 class="cards-details">TONIC</h2>
           <div class="highlights">
@@ -170,21 +176,124 @@
         </div>
       </div>
     </section>
+    <!--Start of desktop-cards section-->
+    <section class="projects-section-desktop">
+      <div class="card">
+        <img class="card-image" src="./assets/images/desktop1.png" alt="project1.png"/>
+        <div class="tonic-area">
+          <h2 class="cards-details">TONIC</h2>
+          <div class="highlights">
+            <span class="highlight-text">CANOPY</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="countertext">Back End Dev</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="year">2015</span>
+          </div>
+          <article class="cards-description">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+          </article>
+          <ul class="skills">
+            <li id="html">html</li>
+            <li id="css">css</li>
+            <li id="javascript">javascript</li>
+          </ul>
+          <button id="popup" type="button">See Project</button>
+        </div>
+      </div>
+      <div class="card" id="project2">
+        <img class="card-image" src="./assets/images/desktop2.png" alt="project1.png" />
+        <div class="tonic-area">
+          <h2 class="cards-details">Multi-Post Stories</h2>
+          <div class="highlights">
+            <span class="highlight-text">FACEBOOK</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="countertext">Full Stack Dev</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="year">2015</span>
+          </div>
+          <article class="cards-description">
+            <p>
+              Experimental content creation feature that allows users 
+              to add to an existing story over the course of a day without spamming their friends.
+            </p>
+          </article>
+          <ul class="skills">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <button id="popup" type="button">See Project</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./assets/images/desktop3.png" alt="project1.png" />
+        <div class="tonic-area">
+          <h2 class="cards-details">Facebook 360</h2>
+          <div class="highlights">
+            <span class="highlight-text">FACEBOOK</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="countertext">Full Stack Dev</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="year">2015</span>
+          </div>
+          <article class="cards-description">
+            <p>Exploring the future of media in Facebook's first Virtual Reality app; 
+              a place to discover and enjoy 360 photos and videos on Gear VR.
+            </p>
+          </article>
+          <ul class="skills">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <button id="popup" type="button">See Project</button>
+        </div>
+      </div>
+      <div class="card" id="project4">
+        <img class="card-image" src="./assets/images/desktop4.png" alt="project4.png" />
+        <div class="tonic-area">
+          <h2 class="cards-details">Uber Navigation</h2>
+          <div class="highlights">
+            <span class="highlight-text">Uber</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="countertext">Lead Developer</span>
+            <img src="./assets/images/Counter.png" alt="Counter.png" />
+            <span class="year">2018</span>
+          </div>
+          <article class="cards-description">
+            <p>A smart assistant to make driving more safe, efficient, and fun by 
+              unlocking your most expensive computer: your car.
+            </p>
+          </article>
+          <ul class="skills">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <button id="popup" type="button">See Project</button>
+        </div>
+      </div>
+    </section>
+    
     <!--about-->
     <section class="about">
-      <div class="header1">
-        <h2 class="header">
+      <div class="about-mobile">
+        <h2 class="headline-text">
           About<br />
           Myself
         </h2>
-        <article class="heading-paragraph">
-          <p>
+          <p class="headline-paragraph">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-        </article>
         <div class="heading-social">
           <h2 class="icons-header">LET'S CONNECT</h2>
           <div>
@@ -218,8 +327,8 @@
           </div>
           <button type="button" id="popup">Get my resume</button>
         </div>
-      </div>
-      <div id="about">
+        </div>
+      <div id="about" class="about-lang">
         <div>
           <ul class="lang">
             <li><h4>Languages</h4></li>
@@ -229,9 +338,9 @@
           </ul>
         </div>
         <ul class="icons-lang">
-          <li><img src="./assets/images/js.png" alt="js" />Javascript</li>
-          <li><img src="./assets/images/html.png" alt="html" />HTML</li>
-          <li><img src="./assets/images/css.png" alt="Ellipse" />CSS</li>
+          <li class="li-icons"><img src="./assets/images/js.png" alt="js" />Javascript</li>
+          <li class="li-icons"><img src="./assets/images/html.png" alt="html" />HTML</li>
+          <li class="li-icons"><img src="./assets/images/css.png" alt="Ellipse" />CSS</li>
         </ul>
         <div>
           <ul class="lang">
@@ -250,7 +359,7 @@
           <ul class="lang">
             <li><h4>Skills</h4></li>
             <li class="arrows">
-              <img src="/assets/images/arrow.png" alt="arrow.png" />
+              <img src="./assets/images/arrow.png" alt="arrow.png" />
             </li>
           </ul>
         </div>
