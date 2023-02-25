@@ -3,6 +3,10 @@
   font-style: normal;
 }
 
+img:hover {
+  transform: scale(1.04);
+}
+
 ul {
   list-style: none;
 }
@@ -469,6 +473,12 @@ textarea::placeholder {
   .logo {
     position: relative;
     margin-bottom: 70px;
+    transition: all 0.5s ease-out;
+  }
+
+  .logo:hover {
+    color: #6070ff;
+    background-color: #e5e5e5;
   }
 
   .logo-text {
@@ -499,6 +509,13 @@ textarea::placeholder {
     color: #344563;
     text-decoration: none;
     justify-content: space-between;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav-link:hover {
+    color: #344563;
+    background-color: #e5e5e5;
+    transform: scale(1.04);
   }
 
   #hamburger {
