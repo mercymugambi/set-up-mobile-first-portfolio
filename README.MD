@@ -93,6 +93,8 @@ After you're finished please remove all the comments and instructions!
 - **Visualize the template**
 - **implement linters**
 
+[🚀 Live Demo](#https://github.com/mercymugambi/set-up-mobile-first-portfolio.git)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
