@@ -59,6 +59,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Mobile first portfolio<a name="Mobile first portfolio"></a>
+https://mercymugambi.github.io/set-up-mobile-first-portfolio/
 
 > This is my second microverse project under this program.
 
@@ -93,9 +94,11 @@ After you're finished please remove all the comments and instructions!
 - **Visualize the template**
 - **implement linters**
 
-[🚀 Live Demo](#https://github.com/mercymugambi/set-up-mobile-first-portfolio.git)
+<!-- LIVE DEMO -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://mercymugambi.github.io/set-up-mobile-first-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
