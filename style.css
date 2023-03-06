@@ -26,8 +26,6 @@ body {
   display: none;
 }
 
-/*--mobile nav*/
-/* desktop navbar */
 .mobile-container {
   width: 100%;
   display: flex;
@@ -109,47 +107,6 @@ body {
   font-size: 30px;
   text-decoration: none;
 }
-
-/* .header-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  position: absolute;
-  height: 48px;
-  top: 15px;
-} */
-
-/* .logo {
-  padding: 10px 1px;
-  height: 15px;
-  margin-left: 12px;
-  align-items: center;
-  top: 5px;
-} */
-
-/* .logo-text {
-  color: #6070ff;
-  font-family: "poppins", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  align-items: center;
-  margin-left: 10px;
-} */
-
-/* .bars {
-  align-content: flex-end;
-  padding: 10px 1px;
-  height: 15px;
-  align-items: center;
-  margin-right: 12px;
-}
-
-.nav-items {
-  display: none;
-} */
 
 .headline {
   display: flex;
@@ -551,7 +508,6 @@ textarea::placeholder {
     display: none;
   }
 
-  /* desktop navbar */
   .desktop-container {
     display: flex;
     justify-content: space-between;
@@ -613,69 +569,6 @@ textarea::placeholder {
     background-color: #e5e5e5;
     transform: scale(1.04);
   }
-
-  /* .header-nav {
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-  } */
-
-  /* .logo {
-    position: relative;
-    margin-bottom: 70px;
-    transition: all 0.5s ease-out;
-  } */
-
-  /* .logo:hover {
-    color: #6070ff;
-    background-color: #e5e5e5;
-  } */
-
-  /* .logo-text {
-    text-decoration: none;
-  } */
-
-  /* .menu {
-    align-items: center;
-    justify-content: space-between;
-  } */
-
-  /* .nav-items {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    bottom: 50px;
-    right: 120px;
-    gap: 15px;
-  }
-
-  .nav-link {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-    text-decoration: none;
-    justify-content: space-between;
-    transition: all 0.5s ease-out;
-  }
-
-  .nav-link:hover {
-    color: #344563;
-    background-color: #e5e5e5;
-    transform: scale(1.04);
-  }
-
-  #hamburger {
-    display: none;
-  } */
 
   .headline {
     display: flex;
