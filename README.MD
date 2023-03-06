@@ -158,15 +158,15 @@ github pages
 
 👤 **Mercy Mugambi**
 
-- GitHub: @mercymugambi(https://github.com/mercymugambi)
-- Twitter: @mercymugambi(https://twitter.com/MercyMugambi15)
-- LinkedIn: @mercymugambi(https://www.linkedin.com/in/mercymugambi/)
+- GitHub: [@mercymugambi](https://github.com/mercymugambi)
+- Twitter: [@mercymugambi](https://twitter.com/MercyMugambi15)
+- LinkedIn: [@mercymugambi](https://www.linkedin.com/in/mercymugambi/)
 
 👤 **Gladwin Tshepo Ramantso**
 
-- GitHub: @tsheporamantso(https://github.com/tsheporamantso)
-- Twitter: @ramgt001(https://twitter.com/tsheporamantso)
-- LinkedIn: @GladwinTshepoRamantso(https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+- GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
+- Twitter: [@ramgt001](https://twitter.com/tsheporamantso)
+- LinkedIn: [@GladwinTshepoRamantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
