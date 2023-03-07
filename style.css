@@ -43,19 +43,20 @@ body {
   font-size: 18px;
 }
 
+.hamburger.active span {
+  background-color: white;
+}
+
 .hamburger.active span:nth-child(2) {
   opacity: 0;
-  background-color: white;
 }
 
 .hamburger.active span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  background-color: white;
 }
 
 .hamburger.active span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-  background-color: white;
 }
 
 .hamburger {
