@@ -499,7 +499,7 @@ textarea::placeholder {
 
 /* popup mobile begins */
 
-.popup-window {
+.mobile-popup-window {
 position: absolute;
 z-index: 3;
 left: 0px;
@@ -541,7 +541,7 @@ color: #172B4D;
 margin-left: -40px;
 }
 
-.popup-window .close-btn {
+.mobile-popup-window .close-btn {
 position: absolute;
 color: #67798E;
 margin-top: 32px;
@@ -590,6 +590,9 @@ font-size: 30px;
   align-items: center;
 }
 
+.desktop-popup-window {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .landing-page {
@@ -850,7 +853,141 @@ font-size: 30px;
   .arrows {
     width: 2px;
   }
-.popup-window {
+
+.mobile-popup-window {
   display: none;
 }
+
+/* mobile modal css */
+.desktop-popup-window {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1fr);
+  place-items: center;
+  margin: 0;
+  gap: 50px;
+  background: #C1C7D0;
+  height: 1577px;
+}
+
+.desktop-popup-window .card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  /* height: 496px; */
+  width: 80%;
+  margin-top: 77px;
+  background: #fff;
+}
+
+.desktop-popup-window .card-image {
+  /* width: 46%; */
+  width: 96%;
+  margin: 2%;
+  height: 586px;
+}
+
+.desktop-popup-window .tonic-area {
+  color: #344563;
+  font-size: 2vw;
+  margin: 2%;
+  /* width: 46%; */
+  width: 96%;
+}
+
+.desktop-popup-window .tonic-area2 {
+    display: flex;
+    flex-direction: row;
+  color: #344563;
+  font-size: 2vw;
+  margin: 2%;
+  /* width: 46%; */
+  width: 96%;
+}
+
+.desktop-popup-window .cards-details {
+  color: #091e42;
+}
+
+.desktop-popup-window .highlight-text {
+  margin: 10px 10px 10px 0;
+}
+
+.desktop-popup-window .countertext {
+  margin: 10px;
+}
+
+.desktop-popup-window .year {
+  margin-left: 10px;
+}
+
+.desktop-popup-window .cards-description {
+  margin-left: 10px;
+  width: 67%;
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #344563;
+margin-right: 34px;
+}
+
+.desktop-popup-window .skills {
+  margin: 20px 10px 30px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 298px;
+}
+
+.desktop-popup-window .skills li {
+  background: #ebebff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.border {
+  border: 1px solid #EBECF0;
+  width: 80%;
+  margin-left: 45px;
+}
+
+.modal-links {
+  display: flex;
+  margin-top: 6px;
+  padding-left: 30px;
+}
+
+.see-link {
+  margin-right: 14px;
+}
+
+.modal-links a {
+  margin: 0 0.5rem;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6070ff;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #7f8cff;
+  display: flex;
+  padding: 10px 23px;
+  align-items: center;
+  margin-right: 0%;
+}
+.close-btn{
+color: #67798E;
+background: #fff;
+border: none;
+margin-bottom: 0;
+padding: 0;
+display: flex;
+font-size: 30px;
+margin-left: 90%;
+align-self: center;
+}
+
 }
