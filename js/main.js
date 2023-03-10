@@ -359,7 +359,7 @@ function addDesktopCard() {
         <ul class="skills">
         ${skills}
         </ul>
-        <button id="popup" type="button">See Project</button>
+        <button id="popup-${cards.id}" type="button">See Project</button>
       </div>
     </div>`;
     } else{
@@ -383,7 +383,7 @@ function addDesktopCard() {
         <ul class="skills">
         ${skills}
         </ul>
-        <button id="popup" type="button">See Project</button>
+        <button id="popup-${cards.id}" type="button">See Project</button>
       </div>
     </div>`;  
     }
