@@ -16,6 +16,7 @@ document.querySelectorAll('.a-links').forEach((n) => n
 //Create the mobile object with elements
 let mobileCardArray = [
     { //card 1 details
+        id: 1,
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -28,6 +29,7 @@ let mobileCardArray = [
     },
     //card2 details
     {
+        id: 2,
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -40,6 +42,7 @@ let mobileCardArray = [
     },
     //card3 Details
     {
+        id: 3,
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -52,6 +55,7 @@ let mobileCardArray = [
     },
     //card4 Details
     {
+        id: 4,
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -317,7 +321,7 @@ function addMobileCard() {
           <ul class="skills">
           ${skills}
           </ul>
-          <button id="popup" type="button">See Project</button>
+          <button id="popup-${cards.id}" type="button">See Project</button>
         </div>
       </div>`
     });
