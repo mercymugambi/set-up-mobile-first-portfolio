@@ -77,6 +77,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project1.png" alt="project1.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
+      id: 'popup-1',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -91,6 +92,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project2.png" alt="project2.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
+      id: 'popup-2',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -105,6 +107,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project3.png" alt="project3.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
+      id: 'popup-3',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -120,6 +123,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project4.png" alt="project4.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
+      id: 'popup-4',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -179,57 +183,6 @@ let mobileModalArray = [
         },
         ];
 
-        // //desktop objects differs from mobile
-        // let desktopCardArray = [
-        //   { //card 1 details
-        //       cardTitle: 'TONIC',
-        //       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        //       company: 'CANOPY',
-        //       cardImage: '<img class="card-image" src="./assets/images/project1.png" alt="project1.png"/>',
-        //       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       role: 'Back End Dev',
-        //       skills: ['HTML', 'CSS', 'Javascript'],
-        //       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       year: '2015',
-        //   },
-        //   //card2 details
-        //   {
-        //       cardTitle: 'TONIC',
-        //       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        //       company: 'CANOPY',
-        //       cardImage: '<img class="card-image" src="./assets/images/project2.png" alt="project1.png" />',
-        //       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       role: 'Back End Dev',
-        //       skills: ['HTML', 'CSS', 'Javascript'],
-        //       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       year: '2015',
-        //   },
-        //   //card3 Details
-        //   {
-        //       cardTitle: 'TONIC',
-        //       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        //       company: 'CANOPY',
-        //       cardImage: '<img class="card-image" src="./assets/images/project3.png" alt="project1.png" />',
-        //       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       role: 'Back End Dev',
-        //       skills: ['HTML', 'CSS', 'Javascript'],
-        //       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       year: '2015',
-        //   },
-        //   //card4 Details
-        //   {
-        //       cardTitle: 'TONIC',
-        //       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        //       company: 'CANOPY',
-        //       cardImage: '<img class="card-image" src="./assets/images/project4.png" alt="project4.png" />',
-        //       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       role: 'Back End Dev',
-        //       skills: ['HTML', 'CSS', 'Javascript'],
-        //       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
-        //       year: '2015',
-        //   },
-        //   ];
-      
           //Create the desktop modal object with elements
       let desktopModalArray = [
         { //card 1 details
@@ -321,7 +274,7 @@ function addMobileCard() {
           <ul class="skills">
           ${skills}
           </ul>
-          <button id="popup-${cards.id}" type="button">See Project</button>
+          <button id="popup-${cards.id}" class=popup type="button">See Project</button>
         </div>
       </div>`
     });
@@ -359,7 +312,7 @@ function addDesktopCard() {
         <ul class="skills">
         ${skills}
         </ul>
-        <button id="popup-${cards.id}" type="button">See Project</button>
+        <button id="popup-${cards.id}" class="popup" type="button">See Project</button>
       </div>
     </div>`;
     } else{
@@ -383,7 +336,7 @@ function addDesktopCard() {
         <ul class="skills">
         ${skills}
         </ul>
-        <button id="popup-${cards.id}" type="button">See Project</button>
+        <button id="popup-${cards.id}" class="popup" type="button">See Project</button>
       </div>
     </div>`;  
     }
