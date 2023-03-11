@@ -499,8 +499,6 @@ textarea::placeholder {
   margin-top: 55px;
 }
 
-/* popup mobile begins */
-
 .overlays {
   position: absolute;
   z-index: 3;
@@ -513,7 +511,6 @@ textarea::placeholder {
   background: #c1c7d0;
   visibility: hidden;
 
-  /* display: none; */
 }
 
 .overlays:target {
@@ -538,7 +535,6 @@ textarea::placeholder {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 
-  /* visibility: hidden; */
 }
 
 .title {
@@ -605,10 +601,6 @@ textarea::placeholder {
   padding: 10px 23px;
   align-items: center;
 }
-
-/* .desktop-popup-window {
-  display: none;
-} */
 
 @media screen and (min-width: 768px) {
   .landing-page {
@@ -890,11 +882,6 @@ textarea::placeholder {
     width: 2px;
   }
 
-  /* .mobile-popup-window {
-  display: none;
-} */
-
-  /* mobile modal css */
   .desktopModal {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -904,8 +891,6 @@ textarea::placeholder {
     position: absolute;
     top: 0;
     bottom: 0;
-
-    /* gap: 50px; */
     background: #c1c7d0;
     height: 1000px;
     transform: matrix(0.5);
@@ -921,22 +906,15 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     border: 1px solid #dfe1e6;
-
-    /* height: 496px; */
     width: 80%;
     margin-top: 77px;
     background: #fff;
   }
 
   .desktopModal .card-image {
-    /* width: 46%; */
     width: 96%;
     margin: 2%;
     max-height: 350px;
-
-    /* transform: matrix(0.5); */
-
-    /* height: 586px; */
   }
 
   .desktopModal .tonic-area {
@@ -951,8 +929,6 @@ textarea::placeholder {
     color: #344563;
     font-size: 2vw;
     margin: 2%;
-
-    /* width: 46%; */
     width: 96%;
   }
 
