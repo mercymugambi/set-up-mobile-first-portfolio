@@ -489,7 +489,8 @@ textarea::placeholder {
 }
 
 .btn:hover {
-  color: white;
+  color: #6070ff;
+  
 }
 
 .shape {
