@@ -499,6 +499,12 @@ textarea::placeholder {
   margin-top: 55px;
 }
 
+#error-msg {
+  background-color: red;
+  color: #050505;
+  visibility: hidden;
+}
+
 .overlays {
   position: absolute;
   z-index: 3;
@@ -598,6 +604,10 @@ textarea::placeholder {
   display: flex;
   padding: 10px 23px;
   align-items: center;
+}
+
+.desktopModal {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -865,10 +875,6 @@ textarea::placeholder {
 
   .form {
     align-items: center;
-  }
-
-  #error-msg {
-    display: none;
   }
 
   .shape {
