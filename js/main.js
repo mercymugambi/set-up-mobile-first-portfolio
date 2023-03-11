@@ -388,3 +388,18 @@ window.onload = function loader() {
 };
 
 //Form Validation
+
+const errorMsg = document.getElementById('error-msg');
+const email = document.getElementById('email');
+const form = document.getElementById('form');
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMsg.style.display = 'flex';
+    console.log("worked");
+  } else {
+    errorMsg.style.display = 'none';
+    console.log("did not work");
+  }
+});

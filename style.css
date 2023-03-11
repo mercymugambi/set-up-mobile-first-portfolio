@@ -867,6 +867,10 @@ textarea::placeholder {
     align-items: center;
   }
 
+  #error-msg {
+    display: none;
+  }
+
   .shape {
     display: none;
   }
