@@ -386,3 +386,5 @@ window.onload = function loader() {
   addMobileModal();
   addDesktopModal();
 };
+
+//Form Validation
