@@ -385,4 +385,22 @@ window.onload = function loader() {
   addDesktopCard();
   addMobileModal();
   addDesktopModal();
+
+  // Form Validation
+  const email = document.getElementById('email');
+  const form = document.getElementById('contact');
+  const errorMsg = document.getElementById('error-msg');
+
+  form.addEventListener('submit', (event) => {
+    if (email.value !== email.value.toLowerCase()) {
+      errorMsg.style.visibility = 'visible';
+      event.preventDefault();
+    } else if (email.validity.typeMismatch) {
+      errorMsg.textContent = 'Please enter a valid email address';
+      errorMsg.style.validity = 'visible';
+      event.preventDefault();
+    } else {
+      errorMsg.style.visibility = 'hidden';
+    }
+  });
 };

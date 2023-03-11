@@ -489,7 +489,7 @@ textarea::placeholder {
 }
 
 .btn:hover {
-  color: white;
+  color: #6070ff;
 }
 
 .shape {
@@ -497,6 +497,12 @@ textarea::placeholder {
   width: 134px;
   place-items: center;
   margin-top: 55px;
+}
+
+#error-msg {
+  background-color: red;
+  color: #050505;
+  visibility: hidden;
 }
 
 .overlays {
@@ -598,6 +604,10 @@ textarea::placeholder {
   display: flex;
   padding: 10px 23px;
   align-items: center;
+}
+
+.desktopModal {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
