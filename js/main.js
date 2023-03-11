@@ -16,7 +16,7 @@ document.querySelectorAll('.a-links').forEach((n) => n
 //Create the mobile object with elements
 let mobileCardArray = [
     { //card 1 details
-        id: 1,
+        id: '1',
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -29,7 +29,7 @@ let mobileCardArray = [
     },
     //card2 details
     {
-        id: 2,
+        id: '2',
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -42,7 +42,7 @@ let mobileCardArray = [
     },
     //card3 Details
     {
-        id: 3,
+        id: '3',
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -55,7 +55,7 @@ let mobileCardArray = [
     },
     //card4 Details
     {
-        id: 4,
+        id: '4',
         cardTitle: 'TONIC',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         company: 'CANOPY',
@@ -77,7 +77,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project1.png" alt="project1.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
-      id: 'popup-1',
+      id: '1',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -92,7 +92,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project2.png" alt="project2.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
-      id: 'popup-2',
+      id: '2',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -107,7 +107,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project3.png" alt="project3.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
-      id: 'popup-3',
+      id: '3',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -123,7 +123,7 @@ let mobileModalArray = [
       cardImage: './assets/images/project4.png" alt="project4.png"',
       counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       role: 'Back End Dev',
-      id: 'popup-4',
+      id: '4',
       skills: ['HTML', 'CSS', 'Javascript'],
       counter2: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
       year: '2015',
@@ -138,6 +138,7 @@ let mobileModalArray = [
             cardTitle: 'TONIC',
             description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
             company: 'CANOPY',
+            id: 'd1',
             cardImage: '<img class="card-image" src="./assets/images/desktop1.png" alt="project1.png"/>',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
             role: 'Back End Dev',
@@ -150,6 +151,7 @@ let mobileModalArray = [
             cardTitle: 'Multi-Post Stories',
             description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
             company: 'FACEBOOK',
+            id: 'd2',
             cardImage: '<img class="card-image" src="./assets/images/desktop2.png" alt="project1.png"/>',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
             role: 'Full Stack Dev',
@@ -162,6 +164,7 @@ let mobileModalArray = [
             cardTitle: 'Facebook 360',
             description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.' ,
             company: 'FACEBOOK',
+            id: 'd3',
             cardImage: '<img class="card-image" src="./assets/images/desktop3.png" alt="project1.png"/>',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
             role: 'Full Stack Dev',
@@ -174,6 +177,7 @@ let mobileModalArray = [
             cardTitle: 'Uber Navigation',
             description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
             company: 'Uber',
+            id: 'd4',
             cardImage: '<img class="card-image" src="./assets/images/desktop4.png" alt="project1.png"/>',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
             role: 'Back End Dev',
@@ -187,7 +191,8 @@ let mobileModalArray = [
       let desktopModalArray = [
         { //card 1 details
             cardTitle: 'Tonic',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+            id: 'd1',
+            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. printer took a galley of type and scrambled it 1960s with the relea',
             company: 'CANOPY',
             cardImage: './assets/images/desktop1.png" alt="project1.png"',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
@@ -201,7 +206,8 @@ let mobileModalArray = [
         //card2 details
         {
             cardTitle: 'Multi Post stories',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+            id: 'd2',
+            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. printer took a galley of type and scrambled it 1960s with the relea',
             company: 'Facebook',
             cardImage: './assets/images/desktop2.png" alt="project2.png"',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
@@ -215,7 +221,8 @@ let mobileModalArray = [
         //card3 Details
         {
             cardTitle: 'Facebook 360',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+            id: 'd3',
+            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. printer took a galley of type and scrambled it 1960s with the relea',
             company: 'facebook',
             cardImage: './assets/images/desktop3.png" alt="project3.png"',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
@@ -229,8 +236,9 @@ let mobileModalArray = [
         //card4 Details
         {
             cardTitle: 'Uber Navigation',
+            id: 'd4',
             closeBtn: '&times;',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. printer took a galley of type and scrambled it 1960s with the relea',
             company: 'Uber',
             cardImage: './assets/images/desktop4.png" alt="project4.png"',
             counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
@@ -274,12 +282,15 @@ function addMobileCard() {
           <ul class="skills">
           ${skills}
           </ul>
-          <button id="popup-${cards.id}" class=popup type="button">See Project</button>
+          <a href="#${cards.id}" class="popup" >See Project</a>
         </div>
       </div>`
     });
+    // id="popup-${cards.id}" 
+
     mobileCardContainer.innerHTML = mCard;
   }
+{/* <button id="popup-${cards.id}" class=popup type="button">See Project</button> */}
 
   //starts of the desktop cards
 const desktopContainer = document.querySelector('.projects-section-desktop');
@@ -292,8 +303,8 @@ function addDesktopCard() {
         skills += `<li>${cards.skills[i]}</li>`; 
     }
 
-    if (index === 1 || index ==3){
-        dCard += `<div class="card" id="project2">
+    if (index === 1 || index === 3){
+        dCard += `<div class="card project2">
       ${cards.cardImage}
       <div class="tonic-area">
         <h2 class="cards-details">${cards.cardTitle}</h2>
@@ -312,7 +323,7 @@ function addDesktopCard() {
         <ul class="skills">
         ${skills}
         </ul>
-        <button id="popup-${cards.id}" class="popup" type="button">See Project</button>
+        <a href ="#${cards.id}" class="popup">See Project</a>
       </div>
     </div>`;
     } else{
@@ -336,7 +347,7 @@ function addDesktopCard() {
         <ul class="skills">
         ${skills}
         </ul>
-        <button id="popup-${cards.id}" class="popup" type="button">See Project</button>
+        <a href="#${cards.id}" class="popup">See Project</a>
       </div>
     </div>`;  
     }
@@ -347,42 +358,48 @@ function addDesktopCard() {
   const mobileModalContainer = document.querySelector('.mobile-popup-window');
 function addMobileModal() {
     let modalCard = '';
-    mobileModalArray.forEach((cards) => {
+    mobileModalArray.forEach((cards, index) => {
     let skills = '';
     for (let i = 0; i < cards.skills.length; i++) {
         skills += `<li>${cards.skills[i]}</li>`; 
     }
-        modalCard += `<div class="modals"> 
-        <h2 class="title">${cards.cardTitle}</h2>
-        <div class="close-btn">&times;</div>
-      <div class="highlights">
-          <span class="highlight-text">${cards.company}</span>
-          <img src="./assets/images/Counter.png" alt="Counter.png" />
-          <span class="countertext">${cards.role}</span>
-          <img src="./assets/images/Counter.png" alt="Counter.png" />
-          <span class="year">${cards.year}</span>
-      </div>
-      <img class="card-image" src="${cards.cardImage}" alt="project1.png"/>
-      <article class="card-description">
-          <p>
-          ${cards.description}
-             </p>
-      </article>
-      <ul class="skills">
-      ${skills}
-      </ul>
-      <div class="border"></div>
-      <div class="modal-links">
-        <a href="${cards.demoLink}"><span class="see-link">See live</span>
-        <img src="./assets/icons/live.png"></a>
-        <a href="${cards.sourceLink}"><span class="see-link">See Source</span>
-        <img src="./assets/icons/giticon.png">
-        </a>
-      </div>
+        modalCard += `<div class="overlays" id="${index+1}">
+        <div class="modals" id="modal1"> 
+            <h2 class="title">${cards.cardTitle}</h2>
+            <a href="#" class="close-btn">&times;</a>
+          <div class="highlights">
+              <span class="highlight-text">${cards.company}</span>
+              <img src="./assets/images/Counter.png" alt="Counter.png" />
+              <span class="countertext">${cards.role}</span>
+              <img src="./assets/images/Counter.png" alt="Counter.png" />
+              <span class="year">${cards.year}</span>
+          </div>
+    
+          <img class="card-image" src="${cards.cardImage}" alt="project1.png"/>
+          <article class="card-description">
+              <p>
+              ${cards.description}
+                </p>
+          </article>
+          <ul class="skills">
+          ${skills}
+          </ul>
+          <div class="border"></div>
+          <div class="modal-links">
+            <a href="${cards.sourceLink}"><span class="see-link">See live</span>
+            <img src="./assets/icons/live.png"></a>
+            <a href="${cards.demoLink}"><span class="see-link">See Source</span>
+            <img src="./assets/icons/giticon.png">
+            </a>
+          </div>
+        </div>
     </div>`
     });
     mobileModalContainer.innerHTML = modalCard;
   }
+
+
+
 
   const desktopModalContainer = document.querySelector('.desktop-popup-window');
   function addDesktopModal() {
@@ -392,8 +409,9 @@ function addMobileModal() {
       for (let i = 0; i < cards.skills.length; i++) {
           skills += `<li>${cards.skills[i]}</li>`; 
       }
-          desktopModalCard += `<div class="card">
-          <div class="close-btn">&times;</div>
+          desktopModalCard += `<div class="desktopModal" id ="${cards.id}">
+          <div class="card">
+          <a href="#" class="close-btn">&times;</a>
           <div class="tonic-area">
               <h2 class="cards-details">${cards.cardTitle}</h2>
             <div class="highlights">
@@ -426,10 +444,13 @@ function addMobileModal() {
               </div>
               </div>
           </div>
+          </div>
         </div>`
       });
       desktopModalContainer.innerHTML = desktopModalCard;
     }
+
+
 
   
   //call function
