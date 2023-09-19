@@ -38,7 +38,7 @@ const project = [
   {
     id: '2',
     cardTitle: 'Country Metrics',
-    description: 'This is a web application that provides information about population in different countries around the world. It allows users to explore population by country and view details of individual country.',
+    description: 'This is a web application that provides information about population in different countries in Africa. It allows users to explore population by country and view details of individual country.',
     company: 'Microverse',
     cardTitle2: 'Country Metrics',
     description2: 'This is a web application that provides information about population in different countries around the world. It allows users to explore population by country and view details of individual country.',
@@ -100,7 +100,7 @@ const project = [
 const modals = [
   { // card 1 details
     cardTitle: 'TODO-List',
-    description: 'Todays to-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. This simple web page is built using webpack, es6 and served by a webpack dev server.',
+    description: 'Todays to-do list" is a tool that helps to organize your day.',
     company: 'Microverse',
     cardTitle2: 'TODO-List',
     no: 'd1',
@@ -122,7 +122,7 @@ const modals = [
   // card2 details
   {
     cardTitle: 'Country Metrics',
-    description: 'This is a web application that provides information about population in different countries around the world. It allows users to explore population by country and view details of individual country.',
+    description: 'This is a web application that provides information about population in different countries in Africa.',
     company: 'Microverse',
     cardTitle2: 'Country Metrics',
     no: 'd2',
@@ -130,7 +130,7 @@ const modals = [
     company2: 'Microverse',
     cardImage2: './image/pop_metrics1.PNG" alt="project2.png"',
     role2: 'Front-End Dev',
-    skills2: ['HTML', 'React, Redux', 'CSS', 'Javascript'],
+    skills2: ['HTML', 'React', 'Javascript'],
     cardImage: './image/pop_metrics1.PNG" alt="project2.png"',
     counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
     role: 'Front-End Dev',
@@ -144,7 +144,7 @@ const modals = [
   // card3 Details
   {
     cardTitle: 'Space Travel',
-    description: 'This is the Space Travel Hub website created with React using CRA CLI. It describes a number of features related to the rockets, and missions associated with providing commercial and scientific space travel services.',
+    description: 'This is the Space Travel Hub website created with React using CRA CLI.',
     company: 'Microverse',
     cardTitle2: 'Space Travel App',
     no: 'd3',
@@ -152,7 +152,7 @@ const modals = [
     company2: 'Microverse',
     cardImage2: './image/space_travel.PNG" alt="project3.png"',
     role2: 'Front-End Dev',
-    skills2: ['HTML', 'React', 'CSS', 'Javascript'],
+    skills2: ['HTML', 'React', 'Javascript'],
     cardImage: './image/space_travel.PNG" alt="project3.png"',
     counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
     role: 'Front-End Dev',
@@ -166,7 +166,7 @@ const modals = [
   // card4 Details
   {
     cardTitle: 'Math Magician',
-    description: 'This project is a calculator app called Math-Magician that allows users to perform simple arithmetic calculations. It was built using React, a popular JavaScript library for building user interfaces.',
+    description: 'This project is a calculator app called Math-Magician that allows users to perform simple arithmetic calculations.',
     company: 'Microverse',
     cardTitle2: 'Math Magician',
     no: 'd4',
@@ -174,7 +174,7 @@ const modals = [
     company2: 'Microverse',
     cardImage2: './image/calculator1.PNG" alt="project4.png"',
     role2: 'Front-End Dev',
-    skills2: ['HTML', 'React', 'CSS', 'Javascript'],
+    skills2: ['HTML', 'React', 'Javascript'],
     cardImage: './image/calculator1.PNG" alt="project4.png"',
     counter1: '<img src="./assets/images/Counter.png" alt="Counter.png" />',
     role: 'Front-End Dev',
@@ -214,7 +214,7 @@ window.onload = function loader() {
             ${cards.description}
             </p>
           </article>
-          <ul class="skills">
+          <ul class="skills skills-js">
           ${skills}
           </ul>
           <a href="#${cards.id}" class="popup" >See Project</a>
@@ -254,7 +254,7 @@ window.onload = function loader() {
           ${cards.description2}
           </p>
         </article>
-        <ul class="skills">
+        <ul class="skills skills-js">
         ${skills2}
         </ul>
         <a href ="#${cards.no}" class="popup">See Project</a>
@@ -277,7 +277,7 @@ window.onload = function loader() {
           ${cards.description2}
           </p>
         </article>
-        <ul class="skills">
+        <ul class="skills skills-js">
         ${skills2}
         </ul>
         <a href="#${cards.no}" class="popup">See Project</a>
@@ -300,23 +300,16 @@ window.onload = function loader() {
         <div class="modals" id="modal1"> 
             <h2 class="title">${cards.cardTitle}</h2>
             <a href="#" class="close-btn">&times;</a>
-          <div class="highlights">
-              <span class="highlight-text">${cards.company}</span>
-              <img src="./assets/images/Counter.png" alt="Counter.png" />
-              <span class="countertext">${cards.role}</span>
-              <img src="./assets/images/Counter.png" alt="Counter.png" />
-              <span class="year">${cards.year}</span>
-          </div>
+            <ul class="skills skills-js skills-js-top">
+            ${skills}
+            </ul>
     
-          <img class="card-image" src="${cards.cardImage}" alt="project1.png"/>
           <article class="card-description">
               <p>
               ${cards.description}
                 </p>
           </article>
-          <ul class="skills">
-          ${skills}
-          </ul>
+          
           <div class="border"></div>
           <div class="modal-links">
             <a href="${cards.sourceLink}" target="_blank" rel="noopener noreferrer"><span class="see-link">See live</span>
@@ -344,15 +337,10 @@ window.onload = function loader() {
           <a href="#" class="close-btn">&times;</a>
           <div class="tonic-area">
               <h2 class="cards-details">${cards.cardTitle2}</h2>
-            <div class="highlights">
-              <span class="highlight-text">${cards.company2}</span>
-              <img src="./assets/images/Counter.png" alt="Counter.png" />
-              <span class="countertext">${cards.role2}</span>
-              <img src="./assets/images/Counter.png" alt="Counter.png" />
-              <span class="year">${cards.year}</span>
-            </div>
+              <ul class="skills skills-js">
+              ${skills2}
+              </ul>
           </div>
-          <img class="card-image" src="${cards.cardImage2}" alt="project1.png"/>
           <div class="tonic-area2">
             
             <article class="cards-description">
@@ -361,9 +349,6 @@ window.onload = function loader() {
                  </p>
             </article>
             <div>
-            <ul class="skills">
-            ${skills2}
-            </ul>
             <div class="border"></div>
               <div class="modal-links">
               <a href="${cards.sourceLink}" target="_blank" rel="noopener noreferrer"><span class="see-link">See live</span>
